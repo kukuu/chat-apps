@@ -23,7 +23,7 @@
 see below
 
  ```html
- <div className="comment">
+     <div className="comment">
         <h2 className="commentAuthor">
           {this.props.author}
         </h2>
