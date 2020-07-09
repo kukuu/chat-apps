@@ -11,7 +11,7 @@ export default class App extends React.Component {
   render() {
     return (
       <Router>
-        <Scene key='root' style={{paddingTop: Platform.OS === 'ios' ? 64 : 54}}>
+        <Scene key='root' style={{paddingTop: Platform.OS === 'ios' ? 65 : 54}}>
           <Scene key='home' title='Home' component={Home}/>
           <Scene key='chat' title='Chat' component={Chat}/>
         </Scene>
